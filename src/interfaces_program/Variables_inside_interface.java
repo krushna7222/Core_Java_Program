@@ -11,7 +11,7 @@ interface Bank {
 
 }
 
-class Transaction implements Bank {
+class Transection implements Bank {
 	private int amt = 3000;
 
 	public void withdraw(int amt) {
@@ -40,7 +40,7 @@ public class Variables_inside_interface {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Transaction t1 = new Transaction();
+		Transection t1 = new Transection();
 		t1.deposite(2650);
 		t1.withdraw(1700);
 		t1.withdraw(1230);
