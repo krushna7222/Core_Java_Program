@@ -66,7 +66,7 @@ public class With_stream_Api {
 				.collect(Collectors.toMap(key -> key.name, val -> val.price));
 		System.out.println(map1);
 
-		// map()
+		// filter()
 		Long count = l1.stream().filter((vh) -> vh.price > 30000).count();
 		System.out.println("Number of records returned by the filter method = " + count);
 	}
