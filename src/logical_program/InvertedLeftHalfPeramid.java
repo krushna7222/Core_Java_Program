@@ -1,0 +1,28 @@
+package logical_program;
+
+import java.util.Scanner;
+
+public class InvertedLeftHalfPeramid {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int n;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter number how many rows or column : ");
+		n = sc.nextInt();
+
+		for (int i = n; i >= 0; i--) {
+
+			System.out.print("\n");
+
+			for (int j = 0; j < i; j++) {
+
+				System.out.print(" *");
+
+			}
+
+		}
+
+	}
+}
